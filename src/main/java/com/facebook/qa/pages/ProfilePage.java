@@ -21,8 +21,6 @@ public class ProfilePage extends BaseClass {
     public static WebElement addImg;
     public static WebElement addCoverPhotos;
 
-
-
     public String verifyPostsField() {
         posts = driver.findElement(By.xpath("//span[starts-with(@class,'gvxzyvdx aeinzg81 t7p7dqev gh25dzvf exr7barw b6ax4al1 gem102v4 ncib64c9 mrvwc6qr sx8pxkcf f597kf1v cpcgwwas m2nijcs8 hxfwr5lz k1z55t6l oog5qr5w innypi6y d1w2l3lo')][1]"));
         return posts.getAttribute("class");
